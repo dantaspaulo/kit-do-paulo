@@ -1,0 +1,23 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "kit-do-paulo",
+  "description": "Kit do Paulo: proteção contra comando destrutivo, revisor de código e skill de commit, e um pacote que instala de uma vez os plugins oficiais do \"Comece por aqui\".",
+  "owner": { "name": "Paulo Sérgio Dantas", "url": "https://github.com/dantaspaulo" },
+  "allowCrossMarketplaceDependenciesOn": ["claude-plugins-official"],
+  "plugins": [
+    {
+      "name": "kit-do-paulo",
+      "source": "./plugins/kit-do-paulo",
+      "description": "Proteção contra comando destrutivo, um revisor de código que não edita nada e a skill de revisar commit.",
+      "category": "produtividade",
+      "tags": ["seguranca", "revisao", "commit", "pt-br"]
+    },
+    {
+      "name": "comece-por-aqui",
+      "source": "./plugins/comece-por-aqui",
+      "description": "Instala o kit-do-paulo e os 7 plugins oficiais do \"Comece por aqui\" num comando só.",
+      "category": "produtividade",
+      "tags": ["pacote", "iniciante", "pt-br"]
+    }
+  ]
+}

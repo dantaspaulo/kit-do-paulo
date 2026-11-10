@@ -1,0 +1,21 @@
+{
+  "name": "comece-por-aqui",
+  "displayName": "Comece por aqui (Kit do Paulo)",
+  "version": "1.0.0",
+  "description": "Instala de uma vez o kit-do-paulo e os 7 plugins oficiais do \"Comece por aqui\": modo aprendiz, cuidado do CLAUDE.md, skills do Matt Pocock, context7, Playwright, guia de segurança e criador de skills.",
+  "author": { "name": "Paulo Sérgio Dantas", "url": "https://github.com/dantaspaulo" },
+  "homepage": "https://github.com/dantaspaulo/kit-do-paulo",
+  "repository": "https://github.com/dantaspaulo/kit-do-paulo",
+  "license": "MIT",
+  "keywords": ["pacote", "iniciante", "pt-br"],
+  "dependencies": [
+    "kit-do-paulo",
+    "learning-output-style@claude-plugins-official",
+    "claude-md-management@claude-plugins-official",
+    "mattpocock-skills@claude-plugins-official",
+    "context7@claude-plugins-official",
+    "playwright@claude-plugins-official",
+    "security-guidance@claude-plugins-official",
+    "skill-creator@claude-plugins-official"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "kit-do-paulo",
+  "displayName": "Kit do Paulo",
+  "version": "1.0.0",
+  "description": "Proteção contra comando destrutivo, um revisor de código que não edita nada e a skill de revisar commit.",
+  "author": { "name": "Paulo Sérgio Dantas", "url": "https://github.com/dantaspaulo" },
+  "homepage": "https://github.com/dantaspaulo/kit-do-paulo",
+  "repository": "https://github.com/dantaspaulo/kit-do-paulo",
+  "license": "MIT",
+  "keywords": ["seguranca", "revisao", "commit", "hook", "pt-br"]
+}
