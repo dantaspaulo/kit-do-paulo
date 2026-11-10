@@ -20,9 +20,14 @@ claude plugin install kit-do-paulo@kit-do-paulo
 Ou o pacote completo, que já inclui o de cima:
 
 ```bash
+claude plugin marketplace add anthropics/claude-plugins-official
 claude plugin marketplace add dantaspaulo/kit-do-paulo
 claude plugin install comece-por-aqui@kit-do-paulo
 ```
+
+A primeira linha registra a loja oficial, de onde vêm os 7 plugins. O Claude Code já a registra sozinho na primeira
+vez que você o abre no terminal; se ela já estiver lá, a linha só avisa e segue. Sem a loja oficial, o pacote
+completo instala, mas não carrega.
 
 Dentro do Claude Code, o mesmo com barra: `/plugin marketplace add dantaspaulo/kit-do-paulo` e
 `/plugin install kit-do-paulo@kit-do-paulo`. Numa sessão que já estava aberta, rode `/reload-plugins` depois.
